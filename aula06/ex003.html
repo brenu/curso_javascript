@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Aula 06</title>
+    <style>
+      body {
+        background-color: rgb(92, 196, 161);
+      }
+      h1 {
+        font-size: 20pt;
+        color: #fff;
+      }
+      p {
+        color: #fff;
+      }
+    </style>
+  </head>
+  <body>
+    <!-- <h1>Hello World!</h1>
+    <p>Já me livrei do Guanabara!</p> -->
+    <script>
+      var firstNumber = window.prompt("Insira o primeiro número");
+      var secondNumber = window.prompt("Insira o segundo número");
+      /***
+       *   O comando window.prompt() sempre retorna uma string, mesmo que você
+       *   insira um número
+       ***/
+      var sum = Number(firstNumber) + Number(secondNumber);
+
+      window.alert(`A soma entre ${firstNumber} e ${secondNumber} é ${sum}`);
+      // + -> Sinal que serve para soma (números) e concatenação (strings)
+    </script>
+  </body>
+</html>
